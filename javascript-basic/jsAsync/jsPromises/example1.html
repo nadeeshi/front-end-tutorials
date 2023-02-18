@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p id="msg"></p>
+
+  <script>
+    function display(msg) {
+      document.getElementById("msg").innerHTML = msg;
+    }
+
+    let myPromise = new Promise(function (success, reject) {
+      let x = 0;
+
+      if (x == 0) {
+        success("Ok");
+      } else {
+        reject("Error");
+      }
+    });
+
+    myPromise.then(
+            function (value) { display(value); }, // callback for success
+            function (error) { display(error); } // callback for failure, both are optional
+    );
+  </script>
+
+</body>
+</html>

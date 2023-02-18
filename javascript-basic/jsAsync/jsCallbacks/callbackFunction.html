@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="total"></p>
+
+    <script>
+      function display(total) {
+        document.getElementById("total").innerHTML = total;
+      }
+
+      function calculator(num1, num2, callback) {
+          let sum = num1 + num2;
+          callback(sum); // called next function
+      }
+
+      calculator(5, 10, display); // A callback is a function passed as an argument to another function
+                                  // After calculation success callback function will execute
+    </script>
+</body>
+</html>

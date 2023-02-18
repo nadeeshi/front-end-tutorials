@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p id="age"></p>
+
+  <script>
+    const age = 10;
+
+    { // defined block scope, only block variables are visible inside the block scope
+      const age = 20;
+      // here age is 20
+    }
+
+    // here age is 10
+    document.getElementById("age").innerHTML = age;
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+Find length of string
+
+let name = "Kamal";
+let length = name.length;
+
+
+Escape Character
+
+Code	Result	Description
+\'	    '	    Single quote
+\"	    "	    Double quote
+\\	    \	    Backslash
+
+Code	Result
+ \b	    Backspace
+ \f	    Form Feed
+ \n	    New Line
+ \r	    Carriage Return
+ \t	    Horizontal Tabulator
+ \v	    Vertical Tabulator
+
+--------------------------------------
+JS String Method
+
+String length        -   text.length
+String slice()       -   slice(start, end)
+String substring()   -   substring(start, end) , similar to slice()
+String substr()      -   substr(start, length)
+String replace()     -   text.replace("Dog", "Cat")
+String replaceAll()
+String toUpperCase() -   text.toUpperCase()
+String toLowerCase() -   text.toLowerCase()
+String concat()      -   text1.concat(" ", text2)
+String trim()        -   text1.trim() , remove whitespace
+String trimStart()
+String trimEnd()
+String padStart()
+String padEnd()
+String charAt()      -   text.charAt(0)
+String charCodeAt()
+String split()       -   text.split(",")    // Split on commas
+                         text.split(" ")    // Split on spaces
+                         text.split("|")    // Split on pipe
+
+
+All string methods return a new string.
+They don't modify the original string.
+Strings are immutable: Strings cannot be changed, only replaced.

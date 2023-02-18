@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="user"></p>
+
+    <script>
+        const user = {  // user const object
+            name: "Kamal",
+            age: 35,
+            city: "Lisbon"
+        };
+
+        user.age = 55; // change property value
+
+        document.getElementById("user").innerHTML = user.name + " " + user.age;
+    </script>
+</body>
+</html>

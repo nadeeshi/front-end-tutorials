@@ -1,0 +1,19 @@
+JS function will execute when "something" invokes (calls) the function:
+    When an event occurs (when a user clicks a button)
+    When it is invoked (called) from JavaScript code
+    Automatically (self invoked)
+
+  Ex:-
+    function name(parameter1, parameter2, parameter3) {
+      // code to be executed
+    }
+
+
+We can reuse code: Define the code once, and use it many times.
+We can use the same code many times with different arguments, to produce different results.
+
+
+
+Local Variables
+    Variables declared within a JS function, become LOCAL to the function.
+    These Local variables can only be accessed from within the function

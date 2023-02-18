@@ -1,0 +1,11 @@
+JS Search Methods
+
+String indexOf()        -  str.indexOf("locate"), returns the index of (position of) the first occurrence of a string in a string
+String lastIndexOf()
+String search()         -  str.search("locate"), method searches a string for a string (or a regular expression) and returns the position of the match
+String match()          -  text.match("ain"), returns an array containing the results of matching a string against a string (or a regular expression)
+String matchAll()
+String includes()       -  text.includes("world"), returns true if a string contains a specified value
+String startsWith()
+String endsWith()       - endsWith() is an ES6 feature.
+                          endsWith() is not supported in Internet Explorer.

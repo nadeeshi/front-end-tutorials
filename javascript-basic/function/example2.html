@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p id="person"></p>
+
+  <script>
+    const person = {
+      firstName: "Kamal",
+      lastName: "Perera",
+      age: 35,
+      city: "Colombo",
+      id: 4578,
+      fullName: function () {
+        return this.firstName + " " + this.lastName; // this keyword report to Object
+      }
+    };
+
+    document.getElementById("person").innerHTML = person.fullName();
+  </script>
+</body>
+</html>

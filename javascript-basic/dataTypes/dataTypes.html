@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p id="object"></p>
+  <p id="arrayObject"></p>
+  <p id="dateObject"></p>
+
+  <script>
+    let age = 16;
+    let weight = 7.5; // numbers
+
+    let name = "Kamal"; // strings
+
+    let married = true; // boolean
+
+    const person = { // object
+        name: "Kamal",
+        age: 35
+    };
+
+    const array = ["cat", "dog", "elephant"]; // array object
+
+    const date = new Date("2023-02-28"); // date object
+
+    document.getElementById("object").innerHTML = person;
+    document.getElementById("arrayObject").innerHTML = array;
+    document.getElementById("dateObject").innerHTML = date;
+  </script>
+
+</body>
+</html>

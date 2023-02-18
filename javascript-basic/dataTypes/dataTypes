@@ -1,0 +1,23 @@
+
+Strings are written inside double or single quotes.
+Numbers are written without quotes.
+
+JS has 8 DataTypes
+    1. String
+    2. Number
+    3. Bigint
+    4. Boolean
+    5. Undefined
+    6. Null
+    7. Symbol
+    8. Object -> Object, Array, Date
+
+JS has Dynamic types. This means that the same variable can be used to hold different data types:
+    let x;       // Now x is undefined
+    x = 5;       // Now x is a Number
+    x = "John";  // Now x is a String
+
+
+All JavaScript numbers are stored as decimal numbers (floating point).
+Numbers can be written with, or without decimals
+Javascript are always one type: double (64-bit floating point).

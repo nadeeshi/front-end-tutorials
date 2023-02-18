@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <p id="name"></p>
+    <p id="age"></p>
+
+    <!--we can redeclare variable with var, it will not lose its value -->
+    <script>
+        var name = "Nimal";
+        var name;
+
+        document.getElementById("name").innerHTML = name;
+    </script>
+
+    <!--we can't re-declare variable with let or const -->
+    <script>
+        let age = 34;
+        let age;
+
+        document.getElementById("age").innerHTML = age;
+    </script>
+</body>
+</html>

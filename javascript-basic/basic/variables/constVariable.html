@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p id="demo"></p>
+
+  <!-- With Constant, we can't re-assign value, re-assign a constant array, or re-assign constant object,
+  but we can change the elements of constant array, and can change the properties of constant object
+  -->
+  <script>
+    const animals = ["Cat", "Dog", "Cow"]; // create constant array
+
+    animals[0] = "Peak"; // we can change an element inside the constant array
+
+    animals.push("Duck"); // add new element
+
+    document.getElementById("demo").innerHTML = animals;
+
+
+    //animals = ["Dog"]; // this will get compile error
+  </script>
+</body>
+</html>

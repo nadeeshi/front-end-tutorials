@@ -1,0 +1,10 @@
+ECMAScript 2015, also known as ES6, introduced the JavaScript Promise object.
+
+Promise.then() takes two arguments, a callback for success and another for failure.
+Both are optional, so we can add a callback for success or failure only.
+
+Ex:-
+    myPromise.then(
+      function(value) { /* code if successful */ },
+      function(error) { /* code if some error */ }
+    );
