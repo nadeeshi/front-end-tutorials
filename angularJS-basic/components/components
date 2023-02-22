@@ -1,0 +1,10 @@
+AngularJS Numbers are same as JavaScript numbers
+AngularJs Strings are same as JS strings
+AngularJs Objects also same as JS objects
+
+
+We cannot have multiple ng-App directives on a single page.
+    Only one AngularJS application can be auto-bootstrapped per HTML document.
+    The first ngApp found in the document will be used to define the root element to auto-bootstrap as an application.
+    To run multiple applications in an HTML document you must manually bootstrap them using angular.bootstrap instead.
+    AngularJS applications cannot be nested within each other.

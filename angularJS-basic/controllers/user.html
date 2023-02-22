@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../resources/angular.min.js"></script>
+    <script src="user.js"></script> <!--import controller as external js -->
+</head>
+<body>
+  <div ng-app="myApp" ng-controller="userController">
+      Name: <input type="text" ng-model="name"><br>
+      Age: <input type="number" ng-model="age"><br>
+
+      User Name: {{ name }}<br>
+      User Age: {{ age }}<br>
+
+      User Name: {{ userName() }}
+
+      <p style="background-color: {{ color }}">Change Color</p>
+  </div>
+</body>
+</html>

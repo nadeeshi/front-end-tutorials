@@ -1,0 +1,11 @@
+
+CSS Vs SCSS
+CSS is a styling language that lets users create, design, and style various web pages.
+    CSS : Cascading Style Sheet is the basically the scripting language
+    We generally use CSS in the JavaScript and HTML languages.
+
+
+SCSS is a special file type in a SASS program that one needs to write in the Ruby language.
+    SCSS stands for the Sassy Cascading Style Sheets
+    SCSS contains all the features of CSS and contains more features that are not present in CSS which makes it a good choice for developers to use it.
+    We generally use the SCSS in the Ruby language.

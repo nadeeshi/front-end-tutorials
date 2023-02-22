@@ -1,0 +1,13 @@
+Applications in AngularJS are controlled by controllers.
+This controllers control the data of applications.
+AngularJs controllers are JS Objects.
+
+
+AngularJs Scope - $scope
+    The scope is the binding part between the HTML (view) and the JavaScript (controller).
+    The scope is an object with the available properties and methods.
+
+    Root Scope - $rootScope
+    All applications have a $rootScope which is the scope created on the HTML element that contains the ng-app directive.
+    The rootScope is available in the entire application.
+

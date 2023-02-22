@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../resources/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+<!--    <div ng-app="myApp" user-directive>-->
+
+<!--    </div>-->
+
+    <user-directive></user-directive>
+
+    <script>
+      var app = angular.module("myApp", []);
+
+      app.directive("userDirective", function () {
+          return {
+                template: this
+          };
+      });
+
+    </script>
+</body>
+</html>

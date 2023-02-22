@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../resources/angular.min.js"></script>
+    <script src="filters.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="filterController">
+        <p>The Use Name: {{ userName | uppercase }}</p>
+
+        <p>The Use Name: {{ userName | lowercase }}</p>
+
+        <p>Price: {{ price | currency }}</p>
+
+        <!-- orderBy age(number) -->
+        <ul>
+            <li ng-repeat="animal in animals | orderBy: age">
+                {{ animal.type + " " + animal.age }}
+            </li>
+        </ul>
+
+        <!-- orderBy type(string) -->
+        <ul>
+            <li ng-repeat="animal in animals | orderBy: 'type'">
+                {{ animal.type + " " + animal.age }}
+            </li>
+        </ul>
+
+        <!--get filtered elements from array -->
+        <ul>
+            <li ng-repeat="name in names | filter: 'ni'">
+                {{ name }}
+            </li>
+        </ul>
+        <ul>
+            <li ng-repeat="name in names | filter: 'i'">
+                {{ name }}
+            </li>
+        </ul>
+
+
+        <p>Type a letter to filter names</p>
+        <p><input type="text" ng-model="userInput"></p>
+        <ul>
+            <li ng-repeat="name in names | filter: userInput">
+                {{  name }}
+            </li>
+        </ul>
+
+        <!--custom filter -->
+        <table border="1" width="100%">
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+            <tr ng-repeat="user in users | orderBy: customOrderBy">
+                <td>{{ user.name }}</td>
+                <td>{{ user.city }}</td>
+            </tr>
+        </table>
+        <button ng-click="orderByName('name')">Click To Order By Name</button>
+    </div>
+</body>
+</html>

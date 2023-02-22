@@ -1,0 +1,20 @@
+AngularJS expressions are written inside double braces:
+    {{ expression }}
+
+AngularJS expressions can also be written inside a directive:
+ng-bind="expression"
+
+AngularJS expressions are much like JavaScript expressions:
+They can contain literals, operators, and variables.
+
+We can write expressions wherever we like,
+AngularJS will simply resolve the expression and return the result.
+
+Unlike JS expressions, AngularJS expressions can be written inside HTML.
+AngularJS expressions do not support
+    conditionals,
+    loops, and
+    exceptions, while JavaScript expressions do.
+
+AngularJS expressions support
+    filters, while JavaScript expressions do not.

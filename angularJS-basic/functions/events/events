@@ -1,0 +1,28 @@
+AngularJS has its own HTML events(user events) directives.
+We can add one or more of these event directives to HTML elements.
+
+ng-blur       -
+ng-change
+ng-click
+ng-copy
+ng-cut
+ng-dblclick
+ng-focus
+ng-keydown
+ng-keypress
+ng-keyup
+
+Mouse Events - Mouse events occur when the cursor moves over an element, order
+    1. ng-mouseover
+    2. ng-mouseenter
+    3. ng-mousemove
+    4. ng-mouseleave
+
+Or when a mouse button is clicked on an element, order
+    1. ng-mousedown
+    2. ng-mouseup
+    3. ng-paste
+
+
+$event Object
+    The $event object contains the browser's event object

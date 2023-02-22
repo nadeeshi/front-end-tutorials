@@ -1,0 +1,16 @@
+AngularJS we can make our own service, or use one of the many built-in services.
+A service is a function, or object, that is available for, and limited to, our AngularJS application.
+AngularJS has about 30 built-in services.
+
+1. $location - return information about the location of the current web page
+               AngularJS prefers that you use the $location service instead of the window.location object
+
+2. $http - AngularJS AJAX, service is one of the most common used services in AngularJS applications
+           The service makes a request to the server, and lets our application handle the response.
+           $http is an AngularJS service for reading data from remote servers.
+
+3. $timeout - service is AngularJS' version of the window.setTimeout function
+4. $interval - service is AngularJS' version of the window.setInterval function
+
+
+We can create Our own(custom) Service

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../resources/angular.min.js"></script>
+</head>
+<body>
+    <!--Here input background color will change according to user input -->
+    <div ng-app="" ng-init="userColor='green'">
+      <input style="background-color:{{ userColor }}" ng-model="userColor">
+
+    </div>
+</body>
+</html>

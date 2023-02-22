@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../resources/angular.min.js"></script>
+    <script src="user.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="userController">
+        <p>Select User: </p>
+        <select ng-model="userName" ng-options="name for name in names">
+        </select>
+        <p>The User is: {{ userName }}</p>
+
+        <!--using ng-repeat -->
+        <select>
+            <option ng-repeat="name in names"> {{ name }}</option>
+        </select>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+AngularJS extends HTML with new attributes.
+AngularJS is perfect for Single Page Applications (SPAs).
+
+AngularJS is a JavaScript framework. (written in JavaScript)
+It can be added to an HTML page with a <script> tag.
+
+AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.
+
+
+AngularJS History
+AngularJS (@ https://angularjs.org/) is a client-side JavaScript MVC (Modetl-View-Controller) Framework
+meant for implementing Single Page Architecture (SPA), maintained by Google and released in October 2010.
+
+AngularJS is meant to replace jQuery, which is a simple but popular JavaScript library.
+AngularJS is more powerful than jQuery
+
+But, it is much more difficult to learn and use, hence,
+not as popular as jQuery.
+jQuery also has a huge installed base with thousands of plug-ins to extend it functions.
+
+The main features of AngularJS are:
+    MVC (Model-View-Controller) Framework: separating model, view and controller.
+    Single Page Application (SPA) Framework: via routing with multiple views to update a portion of a page (also via AJAX POST request with JSON payload).
+    Facilitate unit testing and end-to-end testing.
+
+
+
+AngularJS extends HTML with ng-directives.
+    ng-app - directive defines an AngularJS application.
+    ng-model - directive binds the value of HTML controls (input, select, textarea) to application data.
+    ng-bind - directive binds application data to the HTML view.
+
+This results in fewer lines, less boilerplate, cleaner, reusable and testable codes.
+
+AngularJS, combined with Bootstrap,
+lets you rapidly build webapp front-end that uses RESTful web services at the backend, for both desktops and mobile devices.
+
+
+AngularJS starts automatically when the web page has loaded.
+    The ng-app directive tells AngularJS that the <div> element is the "owner" of an AngularJS application.
+    The ng-model directive binds the value of the input field to the application variable name.
+    The ng-bind directive binds the content of the <p> element to the application variable name.

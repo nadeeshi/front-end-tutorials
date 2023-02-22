@@ -1,0 +1,11 @@
+The module is a container for the application controllers.
+Controllers always belong to a module.
+
+
+AngularJs has set of in-built directives which we can use to add those functionalities to our application.
+And also we can use our own directives.
+
+
+var app = angular.module("myApp", []);
+    The [] parameter in the module definition can be used to define dependent modules.
+    Without the [] parameter, we are not creating a new module, but retrieving an existing one.

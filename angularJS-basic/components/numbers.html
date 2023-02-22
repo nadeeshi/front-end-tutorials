@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="../resources/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="amount=50; reducePrice=10">
+      <p>Final Price: {{ amount - reducePrice }}</p>
+      <p>Final Price: <span ng-bind="amount - reducePrice"></span></p>
+    </div>
+
+</body>
+</html>

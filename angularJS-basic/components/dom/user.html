@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../resources/angular.min.js"></script>
+    <script src="user.js"></script>
+</head>
+<body>
+  <div ng-app="myApp" ng-controller="userController" ng-init="userSwitch = true">
+      <p>
+        <button ng-disabled="userSwitch">Click Me</button>
+      </p>
+
+      <p>
+        <input type="checkbox" ng-model="userSwitch"> Disable Button
+      </p>
+
+      <p>{{ userSwitch }}</p>
+
+      <button type="button" disabled>Disabled button</button>
+
+      <p ng-show="userSwitch">I am visible</p>
+      <p ng-hide="userSwitch">I am hide</p>
+  </div>
+</body>
+</html>

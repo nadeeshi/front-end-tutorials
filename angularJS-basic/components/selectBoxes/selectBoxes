@@ -1,0 +1,11 @@
+AngularJS we can create dropdown lists based on items in an array, or an object.
+
+For that, we can use ng-options directive.
+
+ng-options vs ng-repeat
+    We can also use the ng-repeat directive to make the same dropdown list:
+
+    ng-repeat directive repeats a block of HTML code for each item in an array,
+    it can be used to create options in a dropdown list,
+    but the ng-options directive was made especially for filling a dropdown list with options
+

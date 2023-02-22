@@ -1,0 +1,31 @@
+
+Validate User Input
+The ng-model directive can provide type validation for application data (number, e-mail, required):
+
+Input Controls
+Input controls are the HTML input elements:
+    input elements
+    select elements
+    button elements
+    textarea elements
+
+
+Application Status
+The ng-model directive can provide status for application data (valid, dirty, touched, error):
+    myForm.myAddress.$valid
+    myForm.myAddress.$dirty
+    myForm.myAddress.$touched
+
+
+CSS Classes
+The ng-model directive provides CSS classes for HTML elements, depending on their status
+    ng-empty
+    ng-not-empty
+    ng-touched
+    ng-untouched
+    ng-valid
+    ng-invalid
+    ng-dirty
+    ng-pending
+    ng-pristine
+

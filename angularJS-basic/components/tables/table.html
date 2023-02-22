@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../resources/angular.min.js"></script>
+    <script src="table.js"></script>
+
+    <!--css file -->
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="tableController">
+        <p>User Data</p>
+        <table>
+            <tr>
+                <th>User ID</th>
+                <th>User Name</th>
+                <th>City</th>
+            </tr>
+            <tr ng-repeat="user in users | orderBy: 'name'">
+                <td ng-if="$even" style="font-size: medium; color: blue">{{ $index + 1 }}</td>
+                <td ng-if="$odd" style="font-size: small">{{ $index + 1 }}</td>
+                <td>{{ user.name | uppercase }}</td>
+                <td>{{ user.city }}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

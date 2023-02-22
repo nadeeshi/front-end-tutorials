@@ -1,0 +1,38 @@
+AngularJS Directives
+AngularJS directives are HTML attributes with an ng prefix.
+
+AngularJS has a set of built-in directives which offers functionality to our applications.
+And also we can defined our own directives as well.
+
+We can invoke a directive by using:
+    Element name -> <user-directive></user-directive>
+    Attribute    -> <div user-directive></div>
+    Class        -> <div class="user-directive"></div>
+    Comment
+
+Restrictions
+    We can restrict our directives to only be invoked by some of the methods.
+The legal restrict values are:
+    E - for Element name
+    A - for Attribute
+    C - for Class
+    M - for Comment
+    EA - by default the value is this,
+        meaning that both Element names and attribute names can invoke the directive
+
+
+1. ng-init directive - initializes AngularJS application variables, this is not very common
+                       Instead of this, we use controllers or modules
+2. ng-app  directive - defines the application, define the root element of an application
+                       This directive will auto-boostrap(automatically initialize) the application when a web page is loaded
+3. ng-controller     - defines the controller
+4. ng-repeat         - used on an array of objects
+                       clones HTML elements once for each item in a collection
+
+5. ng-model          - binds the value of HTML controls(input, select, textarea)
+                       can provide type validation for application data
+                       provide CSS classes for HTML elements
+
+
+
+

@@ -1,0 +1,24 @@
+AngularJS AJAX, service is one of the most common used services in AngularJS applications
+The service makes a request to the server, and lets our application handle the response.
+
+$http is an AngularJS service for reading data from remote servers.
+    .delete()
+    .get()
+    .head()
+    .jsonp()
+    .patch()
+    .post()
+    .put()
+
+properties
+The response from the server is an object with these properties:
+    .config - the object used to generate the request.
+    .data   - a string, or an object, carrying the response from the server.
+    .headers - a function to use to get header information.
+    .status  - a number defining the HTTP status.
+    .statusText - a string defining the HTTP status.
+
+
+JSON
+The data we get from the response is expected to be in JSON format.
+JSON is a great way of transporting data, and it is easy to use within AngularJS, or any other JavaScript.
