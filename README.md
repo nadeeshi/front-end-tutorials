@@ -25,11 +25,11 @@ Contain about -
       2. jsCallbacks
       3. jsPromises
   
-  
 Technology Used: - 
   1. JavaScript
   2. HTML5
   
+
 
 2. angularJS-basic
 
@@ -63,7 +63,7 @@ Contain about -
       1. http
       2. customer service classes
 
-Technology Used: - 
+Technology Used:-
     1. JavaScript
     2. HTML5
     3. AngularJs (Angular 1) - angular.min.js
