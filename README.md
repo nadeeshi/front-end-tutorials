@@ -67,5 +67,6 @@ Technology Used:-
       1. JavaScript
       2. HTML5
       3. AngularJs (Angular 1) - angular.min.js
+      4. CSS3
     
  ```
