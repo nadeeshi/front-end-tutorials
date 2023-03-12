@@ -1,0 +1,20 @@
+React 
+    React is a JavaScript library for building user interfaces.
+    React is used to build single-page applications.
+    React allows us to create reusable UI components.
+    Frontend JavaScript framework, is a JavaScript library created by Facebook    
+
+Create React App
+    The create-react-app tool is an officially supported way to create React applications.
+    Node.js is required to use create-react-app. This will set up everything need to run a React application
+    
+    create a React application named my-react-app:
+        npx create-react-app my-react-app
+
+
+Run the React Application
+    npm start
+
+    To use React in production, We need npm which is included with Node.js.
+
+    

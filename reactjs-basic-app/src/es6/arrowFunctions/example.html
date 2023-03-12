@@ -1,0 +1,25 @@
+<html>
+    <bod>
+        <h1>Arrow Function</h1>
+
+        <p id="demo"></p>
+        <p id="demo1"></p>
+
+        <script>
+            hello = function() { //without arrow function
+                return "Hello World";
+            }
+
+            hello1 = () => { //with arrow function
+                return "Hello World";
+            }
+
+            // If the function has only one statement, 
+            // and the statement returns a value, we can remove the brackets
+            hello3 = () => "Hello World"; 
+
+            document.getElementById("demo").innerHTML = hello();
+            document.getElementById("demo1").innerHTML = hello1();
+        </script>
+    </bod>
+</html>

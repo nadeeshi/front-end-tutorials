@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        /* A class is a type of function, but instead of using the keyword function to initiate it, 
+            we use the keyword class, 
+            and the properties are assigned inside a constructor() method */
+
+        class Car {
+            constructor(name) {
+                this.brand = name;
+            }
+
+            present() {
+                return 'I have a ' + this.brand;
+            }
+        }
+
+        // Create class inheritance
+        class Model extends Car {
+            constructor(name, model) {
+                super(name);
+                this.model = model;
+            }
+
+            show() {
+                return this.present() + 'it is a ' + this.model;
+            }
+        }
+
+        const myCar = new Car("Volvo"); // Car object
+
+        document.write(myCar.brand);
+        document.write(myCar.present());
+
+        const myCar2 = new Model("Benz", "Brand New"); // Car object
+        document.write(myCar2.show());
+    </script>
+</html>

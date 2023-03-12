@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <p id="demo"></p>
+
+        <script type="module">
+            import { name, age } from "./person.js";
+
+            document.getElementById("demo").innerHTML = "Name is " + name;
+            document.getElementById("demo").innerHTML += "Age is " + age;
+        </script>
+    </body>
+</html>
