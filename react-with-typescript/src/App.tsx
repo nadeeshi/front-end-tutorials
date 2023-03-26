@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import shopLogo from './/assests/shop-logo.jpg';
+import shopLogo from './/assests/img/shop-logo.jpg';
 import './App.css';
 import HomePage from './Pages/HomePage';
 import { BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom';
