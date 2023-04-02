@@ -10,7 +10,7 @@ function formatDescription(description: string) {
 
 const handleEditClick = (shopBeingEdited: Shop) => {
     console.log(shopBeingEdited);
-};
+}
 
 function ShopCard(props: ShopCardProps) {
     const{shop} = props;
@@ -24,14 +24,12 @@ function ShopCard(props: ShopCardProps) {
                 </h5>
                 <p>{formatDescription(shop.description)}</p>
                 <p>Bugest: {shop.budget.toLocaleString()}</p>
-                <button
-                    className=" bordered"
-                    onClick={() => {
-                        handleEditClick(shop);
-                    }}
-                >
-                    <span className="icon-edit "></span>
-                    Edit
+                <button className="bordered"
+                onClick={() => {
+                    handleEditClick(shop);
+                }}>
+                   <span className="icon-edit"></span>
+                   Edit
                 </button>
             </section>
         </div>
